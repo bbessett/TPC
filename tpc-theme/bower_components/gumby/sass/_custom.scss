@@ -1,0 +1,94 @@
+// Your custom SCSS should be written here...
+// Your custom SCSS should be written here...
+
+// Typography Colors
+$header-font-color: #666666 !default;
+$header-link-color: #666666 !default;
+$header-link-hover-color: #c03d20 !default;
+$body-font-color: #666666 !default;
+$body-link-color: #004990 !default;
+$body-link-hover-color: #c03d20 !default;
+
+// User Interface Colors
+$global-bg-color: #b7d8ee;
+$navbar-color: #fff;
+$navbar-link-color: #666666;
+
+// Custom User Interface Colors
+$primary-ui-bgcolor:#daea50;
+$body-block-bgcolor:#fff;
+
+
+$default-font: Verdana, Geneva, sans-serif;
+//constructor classes     
+
+.right {float:right;}
+.left {float:left;}
+
+#logo {
+position:relative;
+top: 45px;
+z-index:101; 
+}
+
+
+
+.header {
+background:$primary-ui-bgcolor;
+min-height: 139px;    
+}
+.header a {
+ @include font-size(10px);
+}
+.navbar {min-height:31px; font-family:$default-font; text-transform:uppercase;}
+.navbar ul li {
+height:31px;
+}
+.navbar ul li > a
+{
+height:31px;
+line-height:30px;
+text-shadow:none;    
+ @include font-size(10px);
+}
+#my_login {
+margin-top:15px;
+}
+#nav-upper-bar {
+position: relative;
+margin-top: 15px;
+}
+
+.social i {
+color:$secondary-color;
+ @include font-size(28px);
+background-color:#fff;
+background-clip:content-box;
+border-radius:140px;
+}
+//header search
+#searchform  {
+margin-top:10px;
+}
+
+
+#searchform input#s {
+width:312px;
+float:left;
+height:28px
+}
+
+#searchform #searchsubmit {
+float:left;
+width:30px;
+height:28px;
+text-indent:-2000px;
+background:url('../imgs/search-btn.jpg') 0 no-repeat;
+border-style:none;
+}
+#searchsubmit:active,#searchsubmit:focus  {border-style:none;}
+
+
+#searchform .screen-reader-text {
+display:none;
+}

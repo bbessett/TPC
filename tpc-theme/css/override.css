@@ -1,0 +1,20 @@
+.category-featured-resources .post-image{
+	display: none;
+}
+
+.fa-youtube-play:before {
+left: 1px;
+top: 1px;
+}
+
+.fa-youtube-play:after {
+top: -20px;
+}
+
+.social i{
+	font-size: 2.4rem;
+}
+
+i.fa.fa-youtube-play.no-white {
+top: 1px;
+}
